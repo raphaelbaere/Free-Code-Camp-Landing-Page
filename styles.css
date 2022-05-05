@@ -1,0 +1,212 @@
+body{
+    background-image: url(https://lh3.googleusercontent.com/LoevD8e8E-_06xtZ1LSd35YlFOa6K8FZe6PIBTqPlQRUtg3-5qB7jIaCvIcb2-4u34vnqmIcUArd26ToPrclh9iAML0HA05L853nqd8BOIwsg6K39e5pFtMhPhCSI6y_8S6wr2Oy_g=w2400);
+     min-height: 100vh;
+      max-width: 869px;
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+  }
+  #header-img{
+  margin-right: 800px;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+   background-color: black;
+    z-index: 100;
+    top: 0;
+  }
+  header a{
+    font-size: 20px;
+    color: white;
+    margin-right: 88px;
+    text-decoration: none;
+  }
+  header ul{
+    display: flex;
+    vertical-align: top
+    list-style: none;
+  }
+  #video{
+  position: absolute;
+  left: 400px;
+  bottom: 260px;
+  }
+  @media (max-width: 800px){
+    #video{}
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 520px;
+  }
+  h1{
+    color: white;
+    position: relative;
+    left: 340px;
+    right: 0px;
+    top: 100px;
+    font-size: 30px;
+  }
+  #email{
+    width: 250px;
+    padding: 7px;
+  }
+  #submit{
+    position: relative;
+    left: 76px;
+    top: 20px;
+    width: 128px;
+    padding: 7px;
+    background-color: rgb(71, 255, 12);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  #features{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    left: 50px;
+  }
+  #featuresp{
+    position: relative;
+    bottom: 380px;
+    left: 200px;
+    color: white;
+    font-size: 20px;
+      background-color: green;
+    border-radius: 25px;
+    border-style: solid;
+  }
+  #truck{
+    margin-top: 10px;
+  }
+  #featuresp2{
+    position: relative;
+    bottom: 320px;
+    left: 200px;
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 25px;
+    border-style: solid;
+    }
+  #featuresp3{
+    position: relative;
+    bottom: 285px;
+    left: 200px;
+    color: white;
+    font-size: 20px;
+      background-color: green;
+    border-radius: 25px;
+    border-style: solid;
+    }
+  #pricing{
+    position: relative;
+    top: 200px;
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+  }
+  #pricing1{
+    position: relative;
+    bottom: 130px;
+    display: block;
+    background-color: green;
+    height: 50px;
+    width: 356px;
+  }
+  #pricing2{
+    position: relative;
+    left: 450px;
+    bottom: 320px;
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+  }
+  #pricing3{
+    position: absolute;
+    left: 0px;
+    right: 100px;
+    bottom: 252px;
+    display: block;
+    background-color: green;
+    height: 50px;
+    width: 356px;
+  }
+  #pricing4{
+    position: relative;
+    bottom: 322px;
+    left: 439px;
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+  }
+  #pricing5{
+    position: absolute;
+    left: 0px;
+    right: 100px;
+    bottom: 252px;
+    display: block;
+    background-color: green;
+    height: 50px;
+    width: 356px;
+  }
+  #mexepfv{
+  font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  #mexepfvprice{
+    font-size: 25px;
+    text-align: center;
+  }
+  #mexepfvdesc{
+    font-size: 20px;
+    text-align: center;
+  }
+  #para{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  #paradesc{
+    font-size: 20px;
+  }
+  #amem{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  #amemdesc{
+    font-size: 20px;
+  }
+  #amemprice{
+    text-align: center;
+    font-size: 25px;
+  }
+  #paraprice{
+    text-align: center;
+    font-size: 25px;
+  }
+  
